@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Project Manager</title>
+  <title>Shopping Cart</title>
 
   <!-- Stylesheets -->
   <link href="./assets/css/reset.css" rel="stylesheet">
@@ -23,19 +23,29 @@
     a single row accross, with to columns under it, one for product list and other for shopping cart contents-->
     <div class="row">
         <div class="col-lg-6">
-            <h2>Available Products</h2>
+            <h2 align="center">Available Products</h2>
         </div>
         <div class="col-lg-6">
-            <h2>Your Order</h2>
+            <h2 align="center">Your Order</h2>
         </div>
     </div>
 
+    <div id="shoppingCart"></div>
+    <div id="inventory"></div>
+    <div id="filterdInventory"></div>
+    <div id="ale"></div>
+    <div id="lager"></div>
+    <div id="weiss"></div>
+    <div id="other"></div>
+    
+    <button id="clear">Clear</button>
+    <!--When filter is pressed, hide "buttons div" 
+    unhide 4 types div's, populate them with text "h3" text, and append to proper div  based on beer type-->
+    <button id="filter">Filter</button>
+    
+    <div id="test"></div>
     
 
-    <div id="shoppingCart"></div>
-
-    <div id="buttons"></div>
-    <button id="clear">clear</button>
   </main>
  <!-- <script src="dom.js"></script>-->
   <script src="./assets/javascript/index.js"></script>
